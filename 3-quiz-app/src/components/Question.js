@@ -3,7 +3,6 @@ import styled from "styled-components";
 import Options from "./Options";
 
 const QuestionCont = styled.h3`
-  color: black;
   margin-bottom: 3rem;
   margin-top: 3rem;
 `;
