@@ -5,6 +5,7 @@ import Options from "./Options";
 const QuestionCont = styled.h3`
   margin-bottom: 3rem;
   margin-top: 3rem;
+  font-weight: 400;
 `;
 
 const Question = (props) => {

@@ -6,6 +6,7 @@ const OptionCont = styled.h3`
   padding: 1rem 1rem;
   background-color: gray;
   width: 60%;
+  font-weight: 400;
 `;
 
 const Options = (props) => {
