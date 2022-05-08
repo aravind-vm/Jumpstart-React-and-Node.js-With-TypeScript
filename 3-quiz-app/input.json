@@ -1,0 +1,14 @@
+[
+  {
+    "question": "1. Sun rises in the _ _ _",
+    "options": ["North", "South", "East", "West"]
+  },
+  {
+    "question": "2. Largest ocean is _ _ _",
+    "options": ["Pacif Ocean", "Indian Ocean", "Atlantic Ocean", "Artic Ocean"]
+  },
+  {
+    "question": "3. Canada is in which continent _ _ _",
+    "options": ["Asia", "Africa", "North America", "South America"]
+  }
+]
