@@ -1,22 +1,10 @@
 import React from "react";
 import styled from "styled-components";
-import Question from "./Question";
+import Footer from "../Footer/Footer";
+import Header from "../Header/Header";
+import Question from "../Question/Question";
+import { MainContainer, QuestionListContainer } from "./Quiz.styled";
 
-const Header = styled.h1`
-  color: black;
-  font-weight: bolder;
-  margin: 1rem;
-`;
-const MainContainer = styled.div`
-  margin: 2rem;
-`;
-const QuestionListContainer = styled.div`
-  margin: 1rem;
-`;
-const Footer = styled(Header)`
-  font-weight: bold;
-  margin-top: 2rem;
-`;
 const quizList = [
   {
     question: "1. Sun rises in the _ _ _",
@@ -40,9 +28,9 @@ const Quiz = () => {
   ));
   return (
     <MainContainer>
-      <Header>Quiz</Header>
+      <Header />
       <QuestionListContainer>{quizContent}</QuestionListContainer>
-      <Footer>Your Score: 15 Points</Footer>
+      <Footer />
     </MainContainer>
   );
 };
